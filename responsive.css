@@ -30,7 +30,7 @@ html, body{
     }
 
     nav h2{
-        font-size: 7vw;
+        font-size: 6vw;
         margin:20px;
     }
     nav button{
@@ -38,7 +38,8 @@ html, body{
         padding:10px 20px;
     }
     .menu-icon i{
-        font-size: 20px;
+        font-size: 30px;
+        margin: 10px;
     }
     .nav-bar a{
         display: none;
