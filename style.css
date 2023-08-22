@@ -15,6 +15,21 @@ html, body{
     height: 100%;
     width: 100%;
 }
+.top-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    padding: 1vw 2vw;
+    background-color: #EE1D52;
+}
+.top-nav .top-left a, .top-nav .top-right{
+ text-decoration: none;
+ font-weight: 500;
+ color: white;
+ margin-right: 6px;
+ font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
 
 /* <!-- navbar header --> */
 nav{
@@ -51,9 +66,10 @@ nav{
 }
 
 nav h2{
-    font-size: 3vw;
+    font-size: 2.6vw;
     font-weight: 900;
-    font-family:'Times New Roman', Times, serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
 }
 
 nav button{
@@ -85,7 +101,8 @@ nav button i{
     display: none;
 }
 .nav-bar a{
-    font-size: 1.8vw;
+    font-size: 1.4vw;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 
     margin: 0 1vw;
     text-decoration: none;
