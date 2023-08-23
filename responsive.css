@@ -146,7 +146,6 @@ html, body{
 .tranding-conten h2{
     font-size: 4vw;
 }
-
 .auther-info h2{
     font-size: 4vw;
 }
@@ -162,5 +161,11 @@ html, body{
 .auther-info .info p{
     font-size: 4vw;
 }
-
+.recent-post h2{
+    font-size: 4vw;
+    margin-bottom: 1.4vw;
+}
+.recent-post span {
+    font-size: 4.6vw;
+}
 }
