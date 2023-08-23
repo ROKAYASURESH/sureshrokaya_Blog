@@ -56,5 +56,61 @@ html, body{
         display: inline-block;
         background-color: #FF376C;
     }
-   
+
+    /* Banner */
+    .banner{
+        flex-direction: column;
+        margin: 4vw;
+        
+    }
+   .banner-left, .banner-right{
+    width: calc(100% - 40px) ;
+    margin:0 20px;
+    margin-top: 20px;
+
+   }
+  
+   .banner-right button{
+    font-size: 2vw;
+    padding: 1vw 2vw;
+   }
+   .banner-right h2{
+    font-size: 6vw;
+    font-weight: 600;
+   }
+   .banner-right p{
+    font-size: 3.5vw;
+    font-weight: 500;
+}
+
+.banner-date h4{
+    font-size: 2.5vw;
+}
+.banner-date h4 i{
+    font-size: 2vw;
+    align-items: center;
+}
+/* Main Contant */
+.main-content{
+    flex-direction: column;
+}
+.suresh{
+    width: 100%;
+    margin: 10px 0;
+
+}
+.left-content{
+    margin: 10px 0;
+}
+.content-box{
+    flex-direction: column;
+    
+
+}
+
+.box1{
+    width: calc(100% - 4vw);
+    margin: 0 4vw;
+}
+
 }
