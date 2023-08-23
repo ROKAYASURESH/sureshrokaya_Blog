@@ -411,3 +411,46 @@ font-size: 1.3vw;
 margin: 20px 0;
 color: var(--text-color);
 }
+/* Author Info */
+.auther-info{
+    background-color: var(--left-bg);
+    padding: 18px;
+    border-radius: 20px;
+    margin: 18px;
+    box-shadow: 1px 1px 10px rgb(122, 120, 120);
+
+    color: var(--text-color);
+
+}
+.auther-info h2{
+    font-size: 2.3vw;
+    margin-bottom: 1vw;
+    font-weight: 800;
+}
+.auther-info .info{
+    background-color: var(--left-bg);
+
+  
+}
+.auther-info img{
+    width: 50%;
+    height: 12vw;
+    border-radius: 50%;
+    margin: 20px 6vw;
+}
+.auther-info .info h2
+{
+    text-align: center;
+    font-size: 2vw;
+    font-weight: 800;
+
+}
+.auther-info .info p{
+    text-align: center;
+    font-size: 1.2vw;
+    font-weight: 500;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    margin: 0 18px;
+    
+}
