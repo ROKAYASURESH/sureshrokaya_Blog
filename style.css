@@ -340,3 +340,74 @@ justify-content: space-between;
 .left-content hr{
     margin: 0 18px;
 }
+
+.right-content{
+    width: 30%; 
+}
+
+/* Tranding post */
+.post{
+    background-color: var(--left-bg);
+    margin:0 20px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px rgb(122, 120, 120);
+
+}
+.mag{
+    margin: 17px;
+    padding: 18px 0;
+}
+.trending{
+    color: var(--text-color);
+}
+.trending{
+   
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.trending span i{
+    font-size: 2vw;
+    border: 1px solid var(--text-color);
+    margin: 4px;
+    color: var(--text-color);
+}
+.tranding-post{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.tranding-post .tranding-image img{
+    width:8vw;
+    height: 8vw;
+    border-radius: 20px;
+    margin: 12px 0;
+    overflow: hidden;
+}
+.tranding-post .tranding-image .num{
+    height: 30px;
+    width: 30px;
+    background-color:#EE1D52;
+    position: absolute;
+    bottom: 16px;
+    left: 0;
+    border-bottom-left-radius: 20px;
+    text-align: center;
+    padding-top: 5px;
+    color: wheat;
+}
+.tranding-conten{
+    margin-left: 13px;
+}
+.tranding-conten button{
+    background-color: #C32AA3;
+    color: #fff;
+    padding: .5vw 1vw;
+    border-width: 0px;
+    border-radius: 20px;
+}
+.tranding-conten h2{
+font-size: 1.3vw;
+margin: 20px 0;
+color: var(--text-color);
+}
