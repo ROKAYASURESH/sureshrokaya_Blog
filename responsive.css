@@ -147,5 +147,20 @@ html, body{
     font-size: 4vw;
 }
 
+.auther-info h2{
+    font-size: 4vw;
+}
+.auther-info img{
+    margin: 20px 20vw;
+    width: 50%;
+    height: 40vw;
+}
+.auther-info .info h2{
+    font-size: 6vw;
+    font-weight: 800;
+}
+.auther-info .info p{
+    font-size: 4vw;
+}
 
 }
