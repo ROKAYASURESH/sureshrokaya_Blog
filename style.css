@@ -454,3 +454,33 @@ color: var(--text-color);
     margin: 0 18px;
     
 }
+/* Recent Posts */
+.recent-post{
+    background-color: var(--left-bg);
+color: var(--text-color);
+    margin: 18px;
+    border-radius: 20px;
+    padding: 18px;
+    box-shadow: 1px 1px 10px rgb(122, 120, 120);
+
+
+}
+.recent-post h2{
+    font-size: 2vw;
+    margin-bottom: 1.4vw;
+
+}
+
+.recent-post span {
+    display: flex;
+    font-size: 1.5vw;
+    margin-right: 20px;
+    padding: 10px 0;
+}
+.recent-post span p{
+    margin-left: 10px;
+}
+.recent-post span i{
+    font-size: 20px;
+    
+}
