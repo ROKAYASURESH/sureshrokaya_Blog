@@ -169,8 +169,13 @@ nav button i{
     border-radius: 50%;
     display:inline-block;
 }
+/* left to rignt */
+#dark-btn.dark-btn-on{
+    padding-left: 23px;
+    background: #ccc;
+    border: 1px solid white;
 
-
+}
 /* BANNER */
 .banner{
     display: flex;
