@@ -11,13 +11,36 @@ html, body{
 
 
 }
-
+/* DropDown */
+.boxx{
+    display: flex;
+}
+.dropdown{
+    position: relative;
+}
+.drop{
+    position: absolute;
+    display: none;
+    background: var(--body-color);
+    padding: 10px;
+    width: 160px;
+    border-radius: 20px;
+}
+.dropdown .drop a{
+ font-size: 20px;
+ line-height: 40px;
+}
+.dropdown:hover .drop{
+    display: block;
+}
+/*  */
 :root{
     --body-color:#efefef ;
     --text-color: #000;
     --bg-color:#fff;
     --left-bg:#fff;
     --body-colors:white ;
+    --nav-color:#fff;
  }
  /* bg change */
  .dark-teme{
@@ -26,6 +49,7 @@ html, body{
      --left-bg: #1C1C1C;
      --bg-color:#303030;
      --body-colors:#0a0a0a ;
+     --nav-color:#0a0a0a;
  }
 section{
     padding: 10px 0px;
@@ -262,7 +286,7 @@ nav button i{
     margin: 20px;
 }
 .left-content{
-    box-shadow: 1px 1px 10px rgb(122, 120, 120);
+    /* box-shadow: 1px 1px 10px rgb(122, 120, 120); */
 
 
     width:100%;
@@ -566,3 +590,40 @@ font-size: 3vw;
     font-size: 2vw;
     margin-right: 1vw;
 }
+
+/* Show and hide*/
+/* ...................... */
+
+.settings-menu{
+    position: absolute;
+    width: 90%;
+    max-width: 350px;
+    height:100vh;
+    background:var(--bg-color);
+    border-radius: 4px;
+    overflow: scroll;
+    position: fixed;
+    top: 0;
+    left: 0%;
+    z-index: 111;
+    /* js */
+    max-width: 0;
+    transition:  max-width 0.3s;    
+}
+/* for drop down start */
+.settings-menu-height{
+    max-width: 400px;
+}
+/* for dropdown end */
+
+.settings-menu::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  .settings-menu::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  .settings-menu::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }

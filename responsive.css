@@ -41,9 +41,7 @@ html, body{
         font-size: 30px;
         margin: 10px;
     }
-    .nav-bar a{
-        display: none;
-    }
+    
     .menu-icons button{
         height: 20px;
         width: 40px;
@@ -168,4 +166,105 @@ html, body{
 .recent-post span {
     font-size: 4.6vw;
 }
+
+.menu-bar{
+   
+    position: absolute;
+    width: 100%;
+    max-height: 350px;
+    /* height:100vh; */
+    background:var(--nav-color);
+    border-radius: 4px;
+  overflow: hidden;
+    top: 79%;
+    left: 0%;
+    z-index: 111;
+    /* js */
+    max-height: 0;
+    transition:  max-height 0.3s;
+    
+}
+
+.menu-bar-height{
+    max-height: 400px;
+}
+.boxx{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    padding: 20px;
+}
+.boxx a{
+    font-size: 4vw;
+
+}
+.settings-menu{
+    width: 80%;
+}
+/* Footer */
+.main-footer{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.footer-post {
+    width: 100%;
+    order: 2;
+}
+.footer-post span{
+    font-size: 4vw;
+    order: 2;
+};
+.meta{
+    clear: both;
+}
+.video{
+    width: 100%;
+  
+    padding: 20px;
+}
+.video iframe{
+    width: 100%;
+}
+.meta{
+    order: 3;
+   display: none;
+}
+}
+
+
+
+
+@media (max-width:360px) {
+    .tranding-post .tranding-image .num{
+        height: 30px;
+        width: 30px;
+        position: absolute;
+        bottom: 26px;
+    }
+    .menu-bar{
+   
+        position: absolute;
+        width: 100%;
+        max-height: 350px;
+        /* height:100vh; */
+        background:var(--nav-color);
+        border-radius: 4px;
+      overflow: hidden;
+        top: 44%;
+        left: 0%;
+        z-index: 111;
+        /* js */
+        max-height: 0;
+        transition:  max-height 0.3s;
+        
+    }
+    
+    .menu-bar-height{
+        max-height: 400px;
+    }
+ 
 }
