@@ -8,7 +8,7 @@ html, body{
     height: 100%;
     background-color:var(--bg-color);
 
-
+  
 
 }
 /* DropDown */
@@ -21,7 +21,7 @@ html, body{
 .drop{
     position: absolute;
     display: none;
-    background: var(--body-color);
+    background: var(--nav-color);
     padding: 10px;
     width: 160px;
     border-radius: 20px;
