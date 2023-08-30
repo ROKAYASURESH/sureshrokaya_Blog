@@ -271,16 +271,23 @@ html, body{
  
 }
 /* notification */
-.nav-icon button i{
-    animation: notification 2s linear;
+button{
+    display: flex;
+}
+.noti{
+    animation: notification 2s ease-in infinite 1s;
+    animation-direction: alternate;
+    color:#fff;
 }
 @keyframes notification {
     0%{
-        transform: rotate(0deg);
+        transform: rotate(4deg);
         transform-origin: top center;
     }
     100%{
-        transform: rotate(350deg);
+        transform: rotate(20deg);
+        transform-origin: top center;
+
     }
     
 }

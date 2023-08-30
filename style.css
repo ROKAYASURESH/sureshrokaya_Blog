@@ -136,7 +136,11 @@ nav button i{
 }
 
 
+
 /* <!-- navbar main menu --> */
+.button{
+    display: flex;
+}
 .nav-bar{
     display: flex;
     justify-content: space-between;
