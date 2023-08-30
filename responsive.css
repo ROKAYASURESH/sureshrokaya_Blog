@@ -166,7 +166,9 @@ html, body{
 .recent-post span {
     font-size: 4.6vw;
 }
-
+.nav-bar{
+    position: relative;
+}
 .menu-bar{
    
     position: absolute;
@@ -182,8 +184,8 @@ html, body{
     /* js */
     max-height: 0;
     transition:  max-height 0.3s;
-    
 }
+
 
 .menu-bar-height{
     max-height: 400px;
@@ -233,8 +235,8 @@ html, body{
     order: 3;
    display: none;
 }
-}
 
+}
 
 
 
@@ -267,4 +269,18 @@ html, body{
         max-height: 400px;
     }
  
+}
+/* notification */
+.nav-icon button i{
+    animation: notification 2s linear;
+}
+@keyframes notification {
+    0%{
+        transform: rotate(0deg);
+        transform-origin: top center;
+    }
+    100%{
+        transform: rotate(350deg);
+    }
+    
 }
