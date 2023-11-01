@@ -26,7 +26,7 @@ SureshRokaya_Blog is a project focused on creating a visually appealing blog wit
   
 ## Demo
 
-You can view the live demo of this project [here](#).
+You can view the live demo of this project [Clik chere](https://github.com/ROKAYASURESH/sureshrokaya_Blog/assets/127000485/fdde5cd8-8c75-4c95-a152-c6a19122ccf9).
 ## Usage
 
 To use the SureshRokaya_Blog project, follow these steps:
@@ -78,4 +78,4 @@ If you'd like to contribute to the SureshRokaya_Blog project, please follow thes
 
 Enjoy exploring and customizing the SureshRokaya_Blog project. If you have any questions or need assistance, feel free to reach out to me.
 
-[Gmail](mailto:sureshrokay761@gmail.com)
+[Send Email](mailto:sureshrokay761@gmail.com)
